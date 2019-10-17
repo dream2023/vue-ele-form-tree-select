@@ -1,4 +1,4 @@
-# vue-ele-form-tree-select | vue-ele-form 的文件上传扩展组件
+# vue-ele-form-tree-select | vue-ele-form 的树形选择框
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg)](https://opensource.org/licenses/mit-license.php)
 [![npm](https://img.shields.io/npm/v/vue-ele-form-tree-select.svg)](https://www.npmjs.com/package/vue-ele-form-tree-select)
@@ -13,10 +13,16 @@ vue-ele-form-tree-select 做为 vue-ele-form 的第三方扩展, 通过对 [vue-
 ## 安装
 
 ```bash
+yarn add vue-ele-form-tree-select
+```
+
+或者
+
+```bash
 npm install vue-ele-form-tree-select --save
 ```
 
-## 使用
+## 全局注册并使用
 
 ```js
 import EleForm from 'vue-ele-form'
@@ -34,6 +40,10 @@ Vue.use(EleForm, {
   }
 })
 ```
+
+## 局部注册使用
+
+局部注册和使用请参考: [https://www.yuque.com/chaojie-vjiel/vbwzgu/inlpxy#I5kdQ](https://www.yuque.com/chaojie-vjiel/vbwzgu/inlpxy#I5kdQ)
 
 ```js
 formDesc: {
